@@ -1,49 +1,77 @@
-baseURL = "https://lucidvagary.com"
+baseURL = 'https://lucidvagary.com/'
+title = "Lucid Vagary"
+theme = "mana"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Lucid Vagary"
-theme = "hermit"
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-rssLimit = 10
-copyright = "© Lucid Vagary. All rights reserved."
-enableEmoji = true
 
-[author]
-  name = "Sean"
+[pagination]
+  pageSize = 10
 
-[taxonomies]
-  tag = "tags"
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = "catppuccin-macchiato"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
+  enableIntegrity = false
+  relatedPostsCount = 3
   description = "Where Creativity Inspires Insight"
-  themeColor = "#1a1a1a"
+  author = "Sean"
+  heroTitleLine1 = "LUCID VAGARY"
+  heroTitleLine2 = "Where Creativity Inspires Insight"
+  footerText = "Lucid Vagary"
 
-  homeSubtitle = "Where Creativity Inspires Insight"
-  footerCopyright = ' &#183; Lucid Vagary'
+  [params.buyMeACoffee]
+    enabled = false
 
-  justifyContent = false
-  relatedPosts = true
-  code_copy_button = false
+  [params.codeHighlight]
+    darkTheme = "catppuccin-macchiato"
+    lightTheme = "catppuccin-frappe"
 
-[menu]
+  [params.copyright]
+    startYear = 2026
+    owner = "Sean"
 
-  [[menu.main]]
-    name = "Poems"
-    url = "poems/"
-    weight = 10
+  [params.admonitions]
+    alertStyle = "favicon"
 
-  [[menu.main]]
-    name = "Fragments"
-    url = "fragments/"
-    weight = 15
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
 
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 20
+[[menus.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 20
+
+[[menus.main]]
+  name = "Tags"
+  pageRef = "/tags"
+  weight = 30
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
