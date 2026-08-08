@@ -1,0 +1,49 @@
+baseURL = "https://lucidvagary.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Lucid Vagary"
+theme = "hermit"
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+rssLimit = 10
+copyright = "© Lucid Vagary. All rights reserved."
+enableEmoji = true
+
+[author]
+  name = "Sean"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  description = "Where Creativity Inspires Insight"
+  themeColor = "#1a1a1a"
+
+  homeSubtitle = "Where Creativity Inspires Insight"
+  footerCopyright = ' &#183; Lucid Vagary'
+
+  justifyContent = false
+  relatedPosts = true
+  code_copy_button = false
+
+[menu]
+
+  [[menu.main]]
+    name = "Poems"
+    url = "poems/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Fragments"
+    url = "fragments/"
+    weight = 15
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
