@@ -42,6 +42,9 @@ defaultContentLanguage = "en"
   heroTitleLine2 = "Where Creativity Inspires Insight"
   footerText = "Lucid Vagary"
 
+  [params.avatar]
+    url = "/images/hero-tower.jpg"
+
   [params.buyMeACoffee]
     enabled = false
 
