@@ -4,6 +4,7 @@ date: 2025-11-01
 draft: false
 tags: ["poem", "image-poem", "miller park", "chicago"]
 description: "An image-poem written at the site of the author's hemorrhagic stroke, paired with a photograph of Lake Michigan facing the Chicago skyline."
+image: "/images/the-city.png"
 ---
 
 *Written at Miller Park, near Gary, Indiana — the site of the author's hemorrhagic stroke.*
