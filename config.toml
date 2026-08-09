@@ -1,5 +1,5 @@
 baseURL = 'https://lucidvagary.com/'
-title = "Lucid Vagary"
+title = "lucid vagary"
 theme = "mana"
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -15,6 +15,7 @@ defaultContentLanguage = "en"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      hardWraps = true
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
@@ -40,7 +41,7 @@ defaultContentLanguage = "en"
   author = "Sean"
   heroTitleLine1 = "lucid vagary"
   heroTitleLine2 = "a constant draft"
-  footerText = "Lucid Vagary"
+  footerText = "lucid vagary"
 
   [params.avatar]
     url = "/images/hero-tower.jpg"
