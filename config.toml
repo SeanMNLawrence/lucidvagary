@@ -36,10 +36,10 @@ defaultContentLanguage = "en"
 [params]
   enableIntegrity = false
   relatedPostsCount = 3
-  description = "Where Creativity Inspires Insight"
+  description = "a constant draft"
   author = "Sean"
-  heroTitleLine1 = "LUCID VAGARY"
-  heroTitleLine2 = "Where Creativity Inspires Insight"
+  heroTitleLine1 = "lucid vagary"
+  heroTitleLine2 = "a constant draft"
   footerText = "Lucid Vagary"
 
   [params.avatar]
