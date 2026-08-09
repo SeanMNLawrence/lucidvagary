@@ -37,7 +37,7 @@ defaultContentLanguage = "en"
 [params]
   enableIntegrity = false
   relatedPostsCount = 3
-  description = "These fragments of my mind about a little thing here and these pulled together for your...well, you'll figure it out."
+  description = "These fragments of my mind about a little thing here and there pulled together for your...well, you'll figure it out."
   author = "Sean"
   heroTitleLine1 = "lucid vagary"
   heroTitleLine2 = "whims, clearly seen"
