@@ -37,10 +37,10 @@ defaultContentLanguage = "en"
 [params]
   enableIntegrity = false
   relatedPostsCount = 3
-  description = "a constant draft"
+  description = "These fragments of my mind about a little thing here and these pulled together for your...well, you'll figure it out."
   author = "Sean"
   heroTitleLine1 = "lucid vagary"
-  heroTitleLine2 = "a constant draft"
+  heroTitleLine2 = "whims, clearly seen"
   footerText = "lucid vagary"
 
   [params.avatar]
@@ -61,21 +61,21 @@ defaultContentLanguage = "en"
     alertStyle = "favicon"
 
 [[menus.main]]
-  name = "Home"
+  name = "home"
   pageRef = "/"
   weight = 10
 
 [[menus.main]]
-  name = "Posts"
+  name = "posts"
   pageRef = "/posts"
   weight = 20
 
 [[menus.main]]
-  name = "Tags"
+  name = "tags"
   pageRef = "/tags"
   weight = 30
 
 [[menus.main]]
-  name = "About"
+  name = "about"
   url = "/about/"
   weight = 40
